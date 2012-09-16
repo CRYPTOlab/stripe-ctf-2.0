@@ -7,7 +7,8 @@ Idea: the secret we're looking for is stored on the Secret Safe under a namespac
 ## Solution Details
 
 First notice that the values are stored as <namespace>.<key> in the database. The query used to retrieve values (line 34 in level00.js) has the following:
-	var query = 'SELECT * FROM secrets WHERE key LIKE ? || ".%"';
+
+    `var query = 'SELECT * FROM secrets WHERE key LIKE ? || ".%"';`
 
 There is no input sanitization. The '?' in that query gets replaced by whatever value you pass as the 'namespace' parameter. Passing a '%' makes the query select everything in the database (all namespaces). One of them has the password to the next level.
 
