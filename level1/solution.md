@@ -12,7 +12,7 @@ Idea: replace the file that gets read to check the combination by passing in an 
 
 Solution relies on the `extract()` function, which takes an array and makes variables from the key/value pairs in the array. The key is that if a variable with the same name as a key in the array already exists, then its value gets replaced by the value in the array (see default `extract_type` in the [documentation](http://php.net/manual/en/function.extract.php "extract() documentation"). 
 
-So, by adding a `filename` parameter, we can replace the `$filename` variable with whatever we want. We replace it with a nonexisting file so that the `$combination` that our `$attempt` is checked again is "" (empty).
+So, by adding a `filename` parameter, we can replace the `$filename` variable with whatever we want. We replace it with a nonexisting file so that the `$combination` that our `$attempt` is checked against is "" (empty).
 
 ## Problem Statement (Copied from CTF website)
 
