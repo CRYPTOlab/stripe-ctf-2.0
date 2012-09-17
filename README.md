@@ -9,4 +9,4 @@ to capture the flag).
 
 These are my solutions to each level, along with a short writeup explaining them. They're not the best solutions, but they worked.
 
-Status: no solutions have been added yet. Working on polishing them slightly.
+Status: added solution ideas for all levels and full solutions for levels 0-3.
