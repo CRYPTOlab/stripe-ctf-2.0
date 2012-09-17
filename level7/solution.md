@@ -8,6 +8,8 @@ Idea: given an existing payload and its valid SHA1 signature (calculated as `sha
 
 TODO: give better explanation.
 
+Link to resource: http://www.vnsecurity.net/2010/03/codegate_challenge15_sha1_padding_attack/
+
 ## Problem Statement (Copied from CTF website)
 
 Welcome to the penultimate level, Level 7.
